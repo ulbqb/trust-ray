@@ -2,7 +2,7 @@
     "MONGO": {
         "URI": "mongodb://localhost:27017/trust-wallet"
     },
-    "RPC_SERVER": "http://127.0.0.1:8545",
+    "RPC_SERVER": "http://gasprice.poa.network:8545",
     "NETWORK_SYMBOL": "ETH",
     "PUSHER": {
         "APN": {
@@ -17,7 +17,7 @@
             "FORWARD": "",
             "BACKWARD": ""
         },
-        "MAX_CONCURRENT_BLOCKS": "MAX_CONCURRENT_BLOCKS"
+        "MAX_CONCURRENT_BLOCKS": "50"
     },
     "AWS": {
         "S3": {
